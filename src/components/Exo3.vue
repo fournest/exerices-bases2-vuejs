@@ -32,6 +32,7 @@ const actif = ref(false);
 
 .inactif {
 
-    color: brown;
+    color: white;
+    background-color: brown;
 }
 </style>

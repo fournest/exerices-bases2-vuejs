@@ -23,6 +23,8 @@ function ajouterTache() {
         <li v-for="tache in taches" :key="tache">{{ tache }}</li>
     </ul>
 
+    <p v-if="taches.length === 0">Aucune tache</p>
+
 
 </template>
 
